@@ -17,7 +17,7 @@ public class Part2 {
         "C Y", 3 + 3,
         "C Z", 6 + 1);
 
-        try (RandomAccessFile file = new RandomAccessFile("C:/Users/jhdan/OneDrive/IT og informasjonssystemer/Java/AdventOfCode/Day2/input.txt", "r")) {
+        try (RandomAccessFile file = new RandomAccessFile("input.txt", "r")) {
             String str;
 
             int sum = 0;

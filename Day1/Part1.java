@@ -3,7 +3,7 @@ import java.io.RandomAccessFile;
 
 public class Part1 {
     public static void main(String[] args) {
-        try (RandomAccessFile file = new RandomAccessFile("C:/Users/jhdan/OneDrive/IT og informasjonssystemer/Java/AdventOfCode/Day1/input.txt", "r")) {
+        try (RandomAccessFile file = new RandomAccessFile("input.txt", "r")) {
             String str;
 
             int max = 0;

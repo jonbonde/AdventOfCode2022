@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Part2 {
     public static void main(String[] args) {
-        try (RandomAccessFile file = new RandomAccessFile("C:/Users/jhdan/OneDrive/IT og informasjonssystemer/Java/AdventOfCode/Day1/input.txt", "r")) {
+        try (RandomAccessFile file = new RandomAccessFile("input.txt", "r")) {
             String str;
 
             ArrayList<Integer> listMax = new ArrayList<Integer>();
